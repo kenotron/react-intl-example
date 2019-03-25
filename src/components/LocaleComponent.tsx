@@ -39,6 +39,6 @@ export class LocaleComponent extends React.Component<{}, LocaleComponentState> {
   }
 
   render() {
-    return !this.state.isLoading ? <div>{this.props.children}</div> : <div />;
+    return !this.state.isLoading ? <>{this.props.children}</> : null;
   }
 }
