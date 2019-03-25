@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { LocaleComponent } from './components/LocaleComponent';
 
 ReactDOM.render(
-  <LocaleComponent>
+  <LocaleComponent defaultLocale="fr">
     <App />
   </LocaleComponent>,
   document.getElementById('root')
